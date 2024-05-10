@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cal">
+        <h1 id="header">Calculator</h1>
+        <input id="display" readonly>
+        <div id="buttons">
+            
+            <button onclick="getToDisplay('7')">7</button>
+            <button onclick="getToDisplay('8')">8</button>
+            <button onclick="getToDisplay('9')">9</button>
+            <button onclick="getToDisplay('+')" class="opb">+</button>
+            
+            <button onclick="getToDisplay('4')">4</button>
+            <button onclick="getToDisplay('5')">5</button>
+            <button onclick="getToDisplay('6')">6</button>
+            <button onclick="getToDisplay('-')" class="opb">-</button>
+            
+            <button onclick="getToDisplay('1')">1</button>
+            <button onclick="getToDisplay('2')">2</button>
+            <button onclick="getToDisplay('3')">3</button>
+            <button onclick="getToDisplay('*')" class="opb">*</button>
+
+            <button onclick="clearDis()" class="opb">C</button>
+            <button onclick="getToDisplay('0')">0</button>
+            <button onclick="getToDisplay('.')" class="opb">.</button>
+            <button onclick="getToDisplay('/')" class="opb">/</button>
+
+            <button onclick="calc()" class="opb">=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>   
+</body>
+</html> 
